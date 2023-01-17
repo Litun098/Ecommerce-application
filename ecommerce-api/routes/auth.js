@@ -50,9 +50,9 @@ router.post('/login', async (req, res) => {
         }
 
         const accessToken = jwt.sign({
-            id: user._id
+            id: user._id,isAdmin:user.isAdmin
         }, process.env.JWT_SECRET_TOKEN,
-            { expiresIn: "121d" }
+            { expiresIn: "100d" }
         );
 
         console.log(user)
@@ -60,6 +60,7 @@ router.post('/login', async (req, res) => {
             message: "Logged in successfully.",
             success: true,
             data: {
+                id:user._id,
                 name: user.username,
                 email: user.email,
                 phone: user.phone,
