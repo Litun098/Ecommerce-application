@@ -19,12 +19,15 @@ const orderSchema = new mongoose.Schema({
         require:true
     },
     address:{
-        type:Object,required:true
+        type:Object,
+        required:true
     },
     status:{
         type:String,
         default:"pending"
     }
+},{
+    timestamps:true
 })
 
 module.exports = mongoose.model('Order',orderSchema);
