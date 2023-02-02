@@ -19,3 +19,17 @@ export const sliderItems = [
         bg:"fcf1ed"
     }
 ]
+
+export const categories = [{
+    id:1,
+    img:'https://rukminim1.flixcart.com/image/832/832/kst9gnk0/shirt/u/a/t/l-frml-st2-vebnor-original-imag6apmphuh2ayu.jpeg?q=70',
+    title:'SHIRT STYLE'
+},{
+    id:2,
+    img:'https://rukminim1.flixcart.com/image/612/612/kvsfhjk0/pyjama/2/l/k/s-110102024grey-people-original-imag8mf2ec6zrsgb.jpeg?q=70',
+    title:'LOUNGEWEAR LOVE'
+},{
+    id:3,
+    img:'https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/n/u/p/m-no-30773-wildcraft-original-imag7ej4sxvfku9d-bb.jpeg?q=70',
+    title:"LIGHT JACKETS"
+}]
