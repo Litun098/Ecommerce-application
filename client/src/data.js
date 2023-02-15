@@ -33,3 +33,25 @@ export const categories = [{
     img:'https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/n/u/p/m-no-30773-wildcraft-original-imag7ej4sxvfku9d-bb.jpeg?q=70',
     title:"LIGHT JACKETS"
 }]
+
+export const products = [
+    {
+        id:1,
+        img:'https://rukminim1.flixcart.com/image/612/612/ktuewsw0/fabric/g/j/s/no-2-35-m-unstitched-na-idisi-flower-idisi-clothes-original-imag73rfqhwfxwap.jpeg?q=70'
+    },{
+        id:2,
+        img:"https://rukminim1.flixcart.com/image/612/612/xif0q/shopsy-fabric/j/5/u/unstitched-dogy-black-shirt-fabric-margi-designer-original-imag6ugaem9bhvvy-bb.jpeg?q=70"
+    },{
+        id:3,
+        img:"https://rukminim1.flixcart.com/image/612/612/kxrvi4w0/fabric/q/w/b/no-2-35-m-unstitched-na-rs-black-white-scooter-radhe-sales-original-imaga5rwjdvuhuzr.jpeg?q=70"
+    },{
+        id:4,
+        img:'https://rukminim1.flixcart.com/image/612/612/l5cslu80/fabric/l/n/j/no-2-25-m-unstitched-na-printed-shirts-fabric-for-men-smart-look-original-imagg22pq6uvscez.jpeg?q=70'
+    },{
+        id:5,
+        img:'https://rukminim1.flixcart.com/image/612/612/kwqq1zk0/fabric/j/x/b/no-2-35-m-unstitched-na-idisi-flower-idisi-clothes-original-imag9dyvdtgzh33n.jpeg?q=70'
+    },{
+        id:6,
+        img:'https://rukminim1.flixcart.com/image/612/612/l23mhzk0/shirt/g/v/t/free-printed-shirts-fabric-for-men-eshopable-original-imagdjy3jmchjf2x.jpeg?q=70'
+    }
+]
