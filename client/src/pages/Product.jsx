@@ -12,7 +12,7 @@ const Container = styled.div`
 `
 const Image = styled.img`
     width:100%;
-    height:80vh;
+    height:90vh;
     background-color:gray;
     object-fit:cover;
 `
