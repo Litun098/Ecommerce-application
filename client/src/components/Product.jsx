@@ -8,6 +8,7 @@ const Info = styled.div`
     opacity:0;
     width:100%;
     height:100%;
+    position:absolute;
     top:0;
     left:0;
     background-color: gray;
@@ -51,7 +52,7 @@ const Icon = styled.div`
     height:40px;
     border-radius:50%;
     background-color:white;
-    display:flex;
+    display : flex;
     align-items:center;
     justify-content:center;
     margin:10px;
@@ -68,7 +69,6 @@ const Product = ({ item }) => {
         <Container>
             <Circle />
             <Image src={item.img} />
-            {/* <img src={item.img}/> */}
             <Info>
                 <Icon>
                     <ShoppingCartOutlined />

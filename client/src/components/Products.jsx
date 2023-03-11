@@ -9,7 +9,7 @@ const Container = styled.div`
     flex-wrap:wrap;
     justify-content:space-between;
 `
-console.log(products);
+console.log("Products are:",products);
 
 const Products = () => {
   return (
