@@ -6,9 +6,11 @@ import styled from 'styled-components'
 const Container = styled.div`
     width:100vw; 
     height:100vh;
-    background-color:gray;
-    ${'' /* background-color:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),
-    url(''),center; */}
+    background : linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ),
+    url('images/register_background.jpg'),center;
     display:flex;
     background-size:cover;
     align-item:center;
@@ -29,7 +31,7 @@ const Input = styled.input`
     margin:20px 10px 0px 0px;
     padding:10px;
 `
-const Form = styled.from`
+const Form = styled.form`
     display:flex;
     flex-wrap:wrap;
 `
