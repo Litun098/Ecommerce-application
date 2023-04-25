@@ -56,6 +56,7 @@ router.get('/find/:id', async (req, res) => {
     try {
         const id = req.params.id;
         const product = await Product.findById(id)
+        console.log(product);
         return res.status(200).send({
             success: true,
             data: product

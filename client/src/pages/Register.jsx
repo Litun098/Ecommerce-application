@@ -18,7 +18,9 @@ const Container = styled.div`
     justify-content:center;
 `
 const Wrapper = styled.div`
+    margin-top: 150px;
     width:40%;
+    height:55%;
     padding:20px;
     background-color:white;
     ${mobile({width:"75%"})};

@@ -3,6 +3,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const Info = styled.div`
     opacity:0;
@@ -45,6 +46,7 @@ const Circle = styled.div`
 const Image = styled.img`
     height:75%;
     z-index:2;
+    overflow:hidden;
 `
 
 const Icon = styled.div`
@@ -65,16 +67,19 @@ const Icon = styled.div`
 `
 
 const Product = ({ item }) => {
+    console.log(item.image)
     return (
         <Container>
             <Circle />
-            <Image src={item.img} />
+            <Image src={item.image} />
             <Info>
                 <Icon>
                     <ShoppingCartOutlined />
                 </Icon>
                 <Icon>
+                    <Link to = {`/product/${item._id}`}>
                     <SearchOutlinedIcon />
+                    </Link>
                 </Icon>
                 <Icon>
                     <FavoriteBorderOutlinedIcon />
